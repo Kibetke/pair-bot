@@ -52,14 +52,14 @@ router.get('/', async (req, res) => {
                     let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                     await delay(800);
                     let b64data = Buffer.from(data).toString('base64');
-                    let session = await Pair_Code_By_Mbuvi_Tech.sendMessage(Pair_Code_By_Mbuvi_Tech.user.id, { text: 'trashcore~' + b64data });
+                    let session = await Pair_Code_By_Mbuvi_Tech.sendMessage(Pair_Code_By_Mbuvi_Tech.user.id, { text: 'CYPHER-X~' + b64data });
 
                     let Mbuvi_MD_TEXT = `
         
 ╔════════════════════◇
 ║『 SESSION CONNECTED』
-║ ✨VolTah-XMD🔷
-║ ✨Giddy Tennor 🔷
+║ ✨Teddy XMD🔷
+║ ✨Teddy Tech 🔷
 ╚════════════════════╝
 
 
@@ -72,15 +72,15 @@ router.get('/', async (req, res) => {
 ╚════════════════════╝
 ╔════════════════════◇
 ║ 『••• _V𝗶𝘀𝗶𝘁 𝗙𝗼𝗿_H𝗲𝗹𝗽 •••』
-║❍ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: youtube.com/@giddynokia
-║❍ 𝐎𝐰𝐧𝐞𝐫: 254756182478
-║❍ 𝐑𝐞𝐩𝐨: https://github.com/Tennor-modz/Bellah-Xmd 
-║❍ 𝐖𝐚𝐆𝗿𝐨𝐮𝐩: https://chat.whatsapp.com/CzFlFQrkdzxFw0pxCBYM7H
-║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://whatsapp.com/channel/0029VaPZWbY1iUxVVRIIOm0D
-║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/giddy_tennor_?igsh=YzZ0NDRoaXFxM2Zk
+║❍ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: youtube.com/@Teddytech1
+║❍ 𝐎𝐰𝐧𝐞𝐫: 254799963583
+║❍ 𝐑𝐞𝐩𝐨: https://github.com/Teddytech1/TEDDY-XMD 
+║❍ 𝐖𝐚𝐆𝗿𝐨𝐮𝐩: https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5?mode=ac_t
+║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://whatsapp.com/channel/0029Vb4WwGo4CrffIZhlnv1Y
+║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/Kibet_fx1_?igsh=YzZ0NDRoaXFxM2Zk
 ║ ☬ ☬ ☬ ☬
 ╚═════════════════════╝
-𒂀 Enjoy VolTah MD
+𒂀 Enjoy Teddy xmd
 
 
 ---
